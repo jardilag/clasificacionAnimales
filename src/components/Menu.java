@@ -5,11 +5,12 @@ import model.Animal;
 import java.util.Scanner;
 
 public class Menu {
-    String optMenu = "";
-    boolean continuar = false;
+
     Scanner sc = new Scanner(System.in);
 
     public String mostrarMenu(){
+        String optMenu = "";
+        boolean continuar = false;
         while(!continuar){
             System.out.println("Selecciona una opción: ");
             System.out.println("1. Crear un animal: ");
